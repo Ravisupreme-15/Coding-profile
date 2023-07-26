@@ -1,0 +1,102 @@
+p{
+    color: blue;
+}
+
+a{
+    color: green;
+}
+
+
+p,a{
+    color: red;
+}
+
+li{
+    list-style: none;
+}
+
+
+.special{
+    color: orange;
+    font-weight: bold;
+
+    font-style: oblique;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+span.special,li.special{
+
+    color: yellow ;
+    stroke: black;
+    font-weight: bold;
+
+}
+ em{
+    color: chocolate;
+}
+
+
+h1+p{
+
+    font-size:100%;
+
+    color: black;
+}
+
+
+
+
+
+a:hover{
+
+    color: darkviolet;
+
+    text-decoration: none;
+}
+
+
+body h1+p .special{
+
+    color: violet;
+    background-color: black;
+    padding: 5px;
+}
+
+#heading{
+
+    color: rebeccapurple;
+    background-color: bisque;
+
+}
+
+p#one{
+
+    color: purple;
+}
+
+
+li[class]{
+
+    color: darkblue;
+    font-size: 300%;
+}
+
+li[class="ab"]{
+
+
+    color: rosybrown;
+}
+
+li[class~="a"]{
+    color: brown;
+}
+
+
+
+
+*{
+
+    list-style-type: decimal;
+}
